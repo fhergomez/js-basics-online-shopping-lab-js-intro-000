@@ -22,5 +22,5 @@ function getCart(){
 
 function addToCart(item){
   var price = Math.floor(Math.random())+1;
-  return price;
+  
 }
