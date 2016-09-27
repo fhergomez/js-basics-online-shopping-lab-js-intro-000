@@ -15,3 +15,12 @@ function total() {
 
   return t
 }
+
+function getCart(){
+  return cart;
+}
+
+function addToCart(item){
+  var price = Math.floor(Math.random())+1;
+  return price;
+}
