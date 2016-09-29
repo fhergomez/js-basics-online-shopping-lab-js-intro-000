@@ -21,5 +21,9 @@ function getCart(){
 }
 
 function addToCart(item){
-  var price = Math.floor(Math.random())+1;
+  var price = Math.floor(Math.random()*100);
+  for (let i = 0;i < cart.length;i++) {
+    cart.push(item[i]);
+  }
+  return `${cart[i]} has been added to your cart.`
 }
