@@ -35,7 +35,8 @@ function viewCart(){
   var itemAndPrices = [];
 
   for (var i = 0;i > cart.length;i++) {
-    
+    var items =
+    var prices =
   }
   return console.log();
 }
