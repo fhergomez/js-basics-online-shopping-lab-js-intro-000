@@ -24,6 +24,15 @@ function addToCart(item){
   var price = Math.floor(Math.random()*100);
   cart.push({ price:item });
 
-  `${cart} has been added to your cart.`
+  console.log(`${item} has been added to your cart.`)
   return cart;
+}
+
+function viewCart(){
+  if (cart.length === 0){
+    console.log('Your shopping cart is empty.');
+  }
+  for (var item in cart) {
+    console.log(`In your cart, you have ${cart[item]} at ${cart}`);
+  }
 }
